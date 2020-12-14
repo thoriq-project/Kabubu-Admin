@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Kabubu Admin</string>
+
+    <string name="nav_draw_open">Open Navigation Drawer</string>
+    <string name="nav_draw_close">Close Navigation Drawer</string>
+
+
+    <string name="pertanyaan">Siapakah yang budayawan indonesia yang menuliskan buku berjudul
+    "Pemikiran Karl Marx" ?</string>
+
+    <string name="deskripsi">ajdshas asjcbjka scjasbjc jas jkjk j jk
+    naksnckjasbjkcbajbscjbasjkbcjksa
+    ndasjkvnkjdbkjvabjkbvjkbadjm,d mv
+    kjasbcjkbasjkcbjaskbcjkbaskbckjabkcj
+    naslkckjabcsjb sjkabcjkasjkdc
+    iwhfubadjhb iyoiygugewfhf hwe
+    jwo ehw whiehfihefi hiweohfio hwioe h
+    hw ehfiowhioe hioewhio hfioweh hiohwoihf oiewgh
+    hwe ihiwhihewklwnfweklnkhw qbuh weih ihwie gw
+     jwejfiowfhbsbjk uhfiwe nejkhkh inyweiywiyjebv
+    hiew byfilknweugwui uowehk fnjy uiwejjcuwngjhfw
+    rjo wiyeiryughkjbj ehgfowemi pw howihef kew
+
+        kjasbcjkbasjkcbjaskbcjkbaskbckjabkcj
+    naslkckjabcsjb sjkabcjkasjkdc
+    iwhfubadjhb iyoiygugewfhf hwe
+    jwo ehw whiehfihefi hiweohfio hwioe h
+    hw ehfiowhioe hioewhio hfioweh hiohwoihf oiewgh
+    hwe ihiwhihewklwnfweklnkhw qbuh weih ihwie gw
+     jwejfiowfhbsbjk uhfiwe nejkhkh inyweiywiyjebv
+    hiew byfilknweugwui uowehk fnjy uiwejjcuwngjhfw
+    rjo wiyeiryughkjbj ehgfowemi pw howihef kew
+
+        kjasbcjkbasjkcbjaskbcjkbaskbckjabkcj
+    naslkckjabcsjb sjkabcjkasjkdc
+    iwhfubadjhb iyoiygugewfhf hwe
+    jwo ehw whiehfihefi hiweohfio hwioe h
+    hw ehfiowhioe hioewhio hfioweh hiohwoihf oiewgh
+    hwe ihiwhihewklwnfweklnkhw qbuh weih ihwie gw
+     jwejfiowfhbsbjk uhfiwe nejkhkh inyweiywiyjebv
+    hiew byfilknweugwui uowehk fnjy uiwejjcuwngjhfw
+    rjo wiyeiryughkjbj ehgfowemi pw howihef kew
+
+        kjasbcjkbasjkcbjaskbcjkbaskbckjabkcj
+    naslkckjabcsjb sjkabcjkasjkdc
+    iwhfubadjhb iyoiygugewfhf hwe
+    jwo ehw whiehfihefi hiweohfio hwioe h
+    hw ehfiowhioe hioewhio hfioweh hiohwoihf oiewgh
+    hwe ihiwhihewklwnfweklnkhw qbuh weih ihwie gw
+     jwejfiowfhbsbjk uhfiwe nejkhkh inyweiywiyjebv
+    hiew byfilknweugwui uowehk fnjy uiwejjcuwngjhfw
+    rjo wiyeiryughkjbj ehgfowemi pw howihef kew
+    </string>
+
+
+    <string name="text_tentang">
+        Kabubu merupakan sistem informasi dalam bentuk mobile appyang berisi informasi tentang budayawan
+        Indonesia dan karya-karyanyabaik berupa buku, puisi, lagu, dan lainnya.
+        Kata “Kabubu” berasal
+        darikependekan dari Katalog Buku Budayawan, karena garis besar pembuatan aplikasi
+        ini adalah aplikasi yang memuat katalog buku karya budayawan Indonesia.
+
+
+        Meskipun garis besar pembuatan aplikasi ini adalah
+        katalog buku, akan tetapi terdapat juga fitur-fitur
+        lain selain katalog yang dapat dinikmati oleh pengguna
+        seperti fitur informasi tentang budayawan, informasi
+        tentang karya budayawan berbentuk kutipan, puisi dan
+        musik.Terdapat juga satu fitur permainan dalam bentuk
+        kuis seputarbudayawan Indonesia dan karya-karyanya.</string>
+
+    <string name="aturan_kuis">
+
+        <li>1.</li> \t \t Kuis berisi soal acak seputar \n
+                    \t \t \t budayawan indonesia \n
+
+        <li>2.</li> \t \t Setiap soal dibatasi waktu \n
+                    \t \t \t \t selama 15 detik \n
+
+        <li>3.</li> \t \t Jawaban benar berbobot nilai  \n
+                    \t \t \t \t skor 100 \n
+
+        <li>4.</li> \t \t Jawaban salah berbobot nilai  \n
+                    \t \t \t \t skor 0 \n
+
+        <li>5.</li> \t \t Jika skor akhir melampaui nilai   \n
+                    \t \t \t \t skor sebelumnya maka kolom skor  \n
+                    \t \t \t \t tertinggi akan ter update secara \n
+                    \t \t \t \t  otomatis \n
+
+    </string>
+
+    <string name="aturan_login">
+
+        <li>Masuk melalui login admin berfungsi untuk mengelola data pada Aplikasi Kabubu</li> \n
+
+        <li>Login admin hanya bisa dilakukan oleh pengguna yang memiliki id dan password admin</li> \n
+
+        <li>Jika tidak memiliki kepentingan untuk mengelola Aplikasi Kabubu atau hanya ingin mengakses aplikasi sebagai user biasa
+        maka Login tidak perlu dikakukan</li> \n
+
+        <li>Terima Kasih</li>
+
+    </string>
+
+
+</resources>

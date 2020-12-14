@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Katalog.AddBookActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/add_book_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Add Book"
+        app:titleTextColor="@android:color/white"
+        app:menu="@menu/menu_add_book"
+        android:background="@color/birulaut"
+
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/add_book_toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+    <ImageView
+        android:id="@+id/img_add_book"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:background="@drawable/ic_add_a_photo_black_24dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+
+    <EditText
+        android:id="@+id/txt_judul"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Judul Buku"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/txt_penulis"
+        android:hint="Penulis"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/txt_kategori"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Kategori"
+        android:layout_gravity="center"/>
+
+
+    <EditText
+        android:id="@+id/txt_link"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="URL / Link"
+        android:layout_gravity="center"/>
+
+
+    <EditText
+        android:id="@+id/txt_deskripsi"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Deskripsi"
+        android:textAlignment="gravity"
+        android:gravity="top"
+        android:lines="20"
+        android:layout_gravity="center"
+        android:paddingBottom="50dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

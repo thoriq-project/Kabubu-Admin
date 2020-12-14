@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kabubufix">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Report.Report4Activity"></activity>
+        <activity android:name=".Report.Report3Activity" />
+        <activity android:name=".Report.Report2Activity" />
+        <activity android:name=".Report.Report1Activity"
+            android:theme="@style/ReportScreenTheme"/>
+        <activity
+            android:name=".Report.ReportActivity"
+            android:theme="@style/KatalogCustomTheme" />
+        <activity android:name=".Kuis.SplashKuisActivity" />
+        <activity
+            android:name=".TentangActivity"
+            android:theme="@style/KatalogCustomTheme" />
+        <activity android:name=".Puisi.AddPuisiActivity" />
+        <activity
+            android:name=".Puisi.PuisiActivity"
+            android:theme="@style/KatalogCustomTheme" />
+        <activity
+            android:name=".Musik.MusikActivity"
+            android:theme="@style/KatalogCustomTheme" />
+        <activity android:name=".Kutipan.AddKutipanActivity" />
+        <activity
+            android:name=".Kutipan.KutipanActivity"
+            android:theme="@style/KatalogCustomTheme" />
+        <activity
+            android:name=".Budayawan.BudayawanActivity"
+            android:theme="@style/KatalogCustomTheme" />
+        <activity android:name=".Kuis.MulaiKuisActivity" />
+        <activity
+            android:name=".Kuis.KuisActivity"
+            android:theme="@style/KatalogCustomTheme" />
+        <activity
+            android:name=".HomeActivity"
+            android:theme="@style/HomeCustomTheme" />
+        <activity android:name=".Budayawan.EditProfileActivity" />
+        <activity android:name=".Katalog.EditBookActivity" />
+        <activity android:name=".Detail.ProfileDetailActivity" />
+        <activity android:name=".Detail.BookDetailActivity" />
+        <activity android:name=".Budayawan.AddProfileActivity" />
+        <activity android:name=".Katalog.AddBookActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/KatalogCustomTheme" />
+        <activity
+            android:name=".Katalog.KatalogActivity"
+            android:theme="@style/KatalogCustomTheme" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:theme="@style/WelcomeCustomTheme" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashCustomTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- <activity android:name=".MainActivity" /> -->
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Theme.AppCompat" />
+    </application>
+
+</manifest>

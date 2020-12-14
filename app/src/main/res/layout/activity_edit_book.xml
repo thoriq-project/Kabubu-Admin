@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Katalog.EditBookActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/edit_book_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Edit Book"
+        app:titleTextColor="@android:color/white"
+        app:menu="@menu/menu_edit_book"
+        android:background="@color/birulaut"
+
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/edit_book_toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="13dp">
+
+            <ImageView
+                android:id="@+id/img_edit_book"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_add_a_photo_black_24dp" />
+
+            <EditText
+                android:id="@+id/txt_judul_edit"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:hint="Judul Buku"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center"
+                />
+
+            <EditText
+                android:id="@+id/txt_penulis_edit"
+                android:hint="Penulis"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:id="@+id/txt_kategori_edit"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:hint="Kategori"
+                android:layout_gravity="center"/>
+
+
+            <EditText
+                android:id="@+id/txt_link_edit"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:hint="URL / Link"
+                android:layout_gravity="center"/>
+
+
+            <EditText
+                android:id="@+id/txt_deskripsi_edit"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="Deskripsi"
+                android:textAlignment="gravity"
+                android:gravity="top"
+                android:lines="20"
+                android:layout_gravity="center"
+                android:paddingBottom="50dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

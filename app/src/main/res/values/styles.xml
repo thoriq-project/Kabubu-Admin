@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/biruterang</item>
+        <item name="colorPrimaryDark">@color/birulaut</item>
+        <item name="colorAccent">@color/kuning</item>
+        <item name="colorControlNormal">#fff</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="HomeCustomTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/biruterang</item>
+        <item name="colorPrimaryDark">@color/birulaut</item>
+        <item name="colorAccent">@color/kuning</item>
+        <item name="colorControlNormal">@color/main_color</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+    </style>
+
+    <style name="KatalogCustomTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/biruterang</item>
+        <item name="colorPrimaryDark">@color/birulaut</item>
+        <item name="colorAccent">@color/main_color</item>
+        <item name="colorControlNormal">#fff</item>
+        <item name="android:statusBarColor">@color/main_color</item>
+
+    </style>
+
+    <style name="WelcomeCustomTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/biruterang</item>
+        <item name="colorPrimaryDark">@color/birulaut</item>
+        <item name="colorAccent">@android:color/white</item>
+        <item name="colorControlNormal">#fff</item>
+        <item name="android:statusBarColor">@android:color/white</item>
+
+    </style>
+
+
+    <style name="SplashCustomTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:statusBarColor">@android:color/white</item>
+
+    </style>
+
+    <style name="ReportScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:statusBarColor">@android:color/white </item>
+    </style>
+
+
+</resources>

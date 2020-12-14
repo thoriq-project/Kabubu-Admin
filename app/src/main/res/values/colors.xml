@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="biruterang">#388792</color>
+    <color name="kuning">#FFF200</color>
+    <color name="hijaugelap">#106755</color>
+    <color name="birulaut">#43B4C6</color>
+
+    <color name="pink">#FFB7C3</color>
+    <color name="abuabu">#A1A1A1</color>
+    <color name="merahterang">#FF193F</color>
+    <color name="kuningputih">#FDFFBF</color>
+    <color name="merahtua">#530915</color>
+
+    <color name="main_color">#249EA0</color>
+    <color name="cream">#FFFAC5</color>
+    <color name="soft_black">#333333</color>
+    <color name="pastel_green">#D5EAD8</color>
+    <color name="indicator_default">#99BBBB</color>
+
+
+</resources>
